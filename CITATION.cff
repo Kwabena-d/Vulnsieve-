@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use VulnSieve in your research, please cite both the software and the paper below."
+
+title: "VulnSieve CVE Program"
+version: "1.0.0"
+date-released: "2026-06-15"
+url: "https://github.com/Kwabena-d/Vulnsieve"
+license: MIT
+
+authors:
+  - family-names: Darko
+    given-names: Stephen Kwabena
+    affiliation: Montclair State University
+  - family-names: Varickamackal Asokkumar
+    given-names: Ramsagar
+    affiliation: Montclair State University
+
+abstract: >
+  VulnSieve is a command-line tool that fetches CVE records from the NVD and
+  compresses them from 300–800 words to ~50 tokens using the Anthropic Claude API,
+  while extracting structured exploit schemas. Designed for use in multi-agent
+  penetration testing pipelines where token efficiency and CVE recall reliability
+  are critical.
+
+keywords:
+  - cybersecurity
+  - CVE
+  - NVD
+  - LLM
+  - penetration testing
+  - LangChain
+  - vulnerability analysis
+  - multi-agent
+
+references:
+  - type: conference-paper
+    title: "VulnSieve: LLM-Augmented CVE Compression for Autonomous Penetration Testing Pipelines"
+    authors:
+      - family-names: Darko
+        given-names: Stephen Kwabena
+      - family-names: Varickamackal Asokkumar
+        given-names: Ramsagar
+    conference:
+      name: "SPIE Defense + Security"
+    year: 2026
+    month: 4
